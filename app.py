@@ -37,7 +37,7 @@ def create_vector_embedding():
             st.session_state.embeddings = OllamaEmbeddings(model="nomic-embed-text")
 
             # 2. Load PDFs  ✅ USE ABSOLUTE / RAW PATH
-            data_path = r"E:\Lang chain projects\1-Q&A chatbot\1.3-RAG Document QA\research_papers"
+            data_path = r"\research_papers"
             st.session_state.loader = PyPDFDirectoryLoader(data_path)
             st.session_state.docs = st.session_state.loader.load()
 
@@ -116,3 +116,4 @@ if user_prompt:
             st.markdown("---")
 
     
+
