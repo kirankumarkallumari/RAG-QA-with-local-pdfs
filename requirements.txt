@@ -1,0 +1,39 @@
+langchain
+python-dotenv
+ipykernel
+langchain_community
+pypdf
+# bs4
+arxiv
+pymupdf
+wikipedia
+langchain-text-splitters
+langchain-openai
+langchain-groq
+# beautifulsoup4
+faiss-cpu
+sentence-transformers
+streamlit
+fastapi
+# uvicorn
+langserve
+langchain-chroma
+langchain_huggingface
+langchain-classic
+groq
+wikipedia
+hf_xet
+tqdm
+PyPDF2
+ddgs
+SQLAlchemy
+mysql-connector-python
+sqlalchemy
+validators==0.35.0
+youtube_transcript_api
+unstructured
+pytube
+numexpr
+huggingface_hub
+gradio
+langchain-ollama
